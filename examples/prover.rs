@@ -1,5 +1,5 @@
-use cosnark::add;
+use cosnark;
 
 fn main() {
-    println!("Hello, world {}", add(2, 3));
+    println!("Proved to {}", cosnark::prove_plonk());
 }
