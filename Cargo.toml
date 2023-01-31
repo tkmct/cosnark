@@ -5,3 +5,8 @@ edition = "2021"
 readme = "README.md"
 
 [dependencies]
+ark-ec = "0.4.0"
+ark-ff = "0.4.0"
+ark-groth16 = "0.3.0"
+ark-relations = "0.4.0"
+ark-std = "0.4.0"
